@@ -1,0 +1,37 @@
+This Chrome extension inserts itself into Tangerine's web pages to enhance their features.
+
+Here are the enhancements currently implemented:
+
+1. On the main page of an account, the extension adds the following informations:
+- For each investment account, the investment fund in it. (Normally, the website only shows the account number, and if it is a TFSA, an RSP, of an ordinary account.)
+
+2. On the page of a fund, the extension adds the following informations:
+- The true yeild of the fund for the money deposited by the client.
+- The total amount of deposits and withdrawals since the account opening.
+
+3. On the page of a checking account, the extension adds the following informations:
+- For each email transfer, the extension adds an icon to show if the transfer is waiting, has been successfully completed, of has failed.
+- A link to a new page, that shows a list of all email transfers pending.
+
+4. On the page presenting the Tangerine Investment Funds (in the unsecured section of the site), the extension adds the following informations:
+- A chart to compare the performance of each funds.
+
+5. On the pages of checking and saving accounts, the extension adds a button to show up to 50 transactions per page. (By default, the website shows 10.)
+
+Changelog:
+
+Version 1 - 2014
+ - Initial release
+ - No changelog has been kept for versions 1 to 3.
+
+Version 4 - April 7th, 2017
+ - Added support for the Dividends Investment funds.
+ - The funds performance chart can now be normalised.
+ 
+Version 4.1 - April 10th, 2017
+ - Bugfix in the pending email transfers
+ - Bugfix in the presentation of the funds yield
+ - When a fund is less old than some performance milestone age, the corresponding milestones are left blank.
+ - A fund yeil is now computed up to the date "as of" reported by Tangerine, instead of the time the webpage is shown.
+ - Bugfix in the treatment of dates (timezones)
+ - Enhances description of the extension in the Chrome Store.

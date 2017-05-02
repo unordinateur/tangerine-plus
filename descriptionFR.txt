@@ -1,0 +1,39 @@
+Cette extension Chrome s'insère dans les pages du site web de Tangerine pour améliorer leurs fonctionnalités.
+
+Voici les améliorations implémentées par cette extension:
+
+1. Sur la page de d'accueil d'un dossier bancaire, l'extension ajoute les informations suivantes:
+- Pour chaque compte de fond commun, le nom du fond correspondant. (Par défaut le site de Tangerine n'affiche que le numéro du compte, et s'il s'agit d'un CÉLI, d'un REER, ou d'un compte non-enregistré.)
+
+2. Sur la page d'un fond, l'extension ajoute les informations suivantes:
+- Le rendement réel du fond pour l'argent déposé par le client.
+- Le total des cotisations et des retraits depuis l'ouverture du fond.
+
+3. Sur la page d'un compte chèque, l'extension ajoute les informations suivantes:
+- Pour chaque transfert par courriel, un marqueur indiquant si le virement est en attente, a été complété avec succès, ou a été annulé.
+- Un lien vers une nouvelle page, qui permet de voir la liste de tous transferts par courriel en attente.
+
+4. Sur la page de présentation des fonds commun (dans la section non sécurisée du site), l'extension ajoute les informations suivantes:
+- Un graphique comparant le rendement de chacun des fonds.
+
+5. Pour tous les comptes chèques et épargnes, l'extension ajoute un bouton permettant d'afficher jusqu'à 50 transactions par page. (La valeur par défaut est 10.)
+
+
+
+Changelog:
+
+Version 1 - 2014
+ - Publication initiale.
+ - Aucun changelog n'a été conservé des versions 1 à 3.
+
+Version 4 - 7 avril 2017
+ - Ajout de support pour le fond de Dividendes
+ - Possibilité de normaliser le graphique de performance des fonds
+ 
+Version 4.1 - 10 avril 2017
+ - Correction d'un bug dans la présentation des transaction par courriel en attente
+ - Correction d'un bug dans la présentation du rendement des fonds communs
+ - Lorsqu'un fond commun moins agé que certaines dates historiques, n'affiche pas de rendement pour ce cas là.
+ - Le rendement d'un fond commun est calculé à partir de la date "en date du", et non pas à partir de la date du moment de visionnement de la page.
+ - Correction du traitement des dates (fuseaux horaires).
+ - Description plus détaillée sur le Chrome Store.

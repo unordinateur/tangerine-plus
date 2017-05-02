@@ -1,0 +1,171 @@
+var stringsAllFR = {
+  displayAccountSummary:{
+    nomPortefeuille: "Nom du portefeuille",
+  },
+  displayMutualFundAccount:{
+    nomPortefeuille: "Nom du portefeuille",
+    croissance: "croissance",
+    equilibre: "équilibré",
+    revenu: "revenu",
+    dividendes: "dividendes",
+    action: "action",
+    an: "an",
+    ans: "ans",
+    mois: "mois",
+    moiss: "mois",
+    depuisOuverture: "depuis l'ouverture",
+    achat: "achat",
+    vente: "vente",
+    entrant: "entrant",
+    sortant: "sortant",
+    dividende: "dividende",
+    sommaireCotisations: "Sommaire des cotisations",
+    valeur: "Valeur",
+    rendement: "Rendement",
+    rendTotal: "Rendement total",
+    rendAnn: "Rendement annualisé",
+    imprimer: "IMPRIMER",
+    depotTotal: "Total des cotisations versées",
+    retraitTotal: "Total des retraits",
+    explicationRendementTotal: "Les pourcentages de rendement total indiquent l'augmentation réelle de la valeur du Fond à la date de référence et de l'argent investi depuis relavitement à la valeur du Fond aujourd'hui.",
+    explicationRendementAnnualise: "Les pourcentages de rendement annualisé indiquent le taux d'intérêt annuel composé mensuellement constant auquel il aurait fallu placer la valeur du Fond à la date de référence et l'argent investi depuis pour obtenir le même rendement en date d'aujourd'hui.",
+  },
+  performance:{
+    croissanceLabel: "Croissance",
+    equilibreLabel: "Équilibré",
+    revenuLabel: "Revenu",
+    dividendesLabel: "Dividendes",
+    actionsLabel: "Actions",
+  },
+  displayAccountDetails1:{
+    transfertCourriel: "Transfert d'argent par courriel",
+    transfertCourrielTangerine: "Transfert d'argent par courriel Tangerine",
+    transfertAttente: "Transferts par courriel en attente",
+    voirAttente: "Voir les transferts par courriel en attente",
+    voirHistorique: "Voir l'historique des opérations",
+    numero: "Numéro",
+    dateEnvoi: "Date d'envoi",
+    dateExpiration: "Date d'expiration",
+    destinataire: "Destinataire",
+    montant: "Montant en $",
+    toa: "À",
+    status: "Statut",
+  },
+  displayEmailMoneyTransferDetails:{
+    accepte: "Accepté",
+    autoAccepte: "Accepté automatiquement",
+    attente: "En attente",
+    nonReussi: "Non réussi",
+    annule: "Annulé",
+    expire: "Expiré",
+    refuse: "Refusé",
+  },
+  common:{
+    monthsList:[
+      "jan",
+      "fev",
+      "mar",
+      "avr",
+      "mai",
+      "jun",
+      "jul",
+      "aou",
+      "sep",
+      "oct",
+      "nov",
+      "dec",
+    ],
+  }
+};
+    
+var stringsAllEN = {
+  displayAccountSummary:{
+    nomPortefeuille: "Portfolio name",
+  },
+  displayMutualFundAccount:{
+    nomPortefeuille: "Portfolio name",
+    croissance: "growth",
+    equilibre: "balanced",
+    revenu: "income",
+    dividendes: "dividend",
+    action: "equity",
+    an: "year",
+    ans: "years",
+    mois: "month",
+    moiss: "months",
+    depuisOuverture: "since opening",
+    achat: "purchased",
+    vente: "sold",
+    entrant: "in",
+    sortant: "out",
+    dividende: "distribution",
+    sommaireCotisations: "Contribution summary",
+    valeur: "Value",
+    rendement: "Return",
+    rendTotal: "Total return",
+    rendAnn: "Annualized return",
+    imprimer: "PRINT",
+    depotTotal: "Total contributions",
+    retraitTotal: "Total withdrawals",
+    explicationRendementTotal: "The total return shows the real increase between the value of the Fund at the reference date and the money deposited since, and the Fund's current value.",
+    explicationRendementAnnualise: "The annualized return shows at which constant monthly compounded interest rate the value of the Fund at the reference date and the amount deposited since should have been invested to obtain the current value of the Fund.",
+  },
+  performance:{
+    croissanceLabel: "Growth",
+    equilibreLabel: "Balanced",
+    revenuLabel: "Income",
+    dividendesLabel: "Dividends",
+    actionsLabel: "Equity",
+  },
+  displayAccountDetails1:{
+    transfertCourriel: "Email Money Transfer",
+    transfertCourrielTangerine: "Tangerine Email Money Transfer",
+    transfertAttente: "Pending Email Money Transfer",
+    voirAttente: "View Pending Email Money Transfer",
+    voirHistorique: "View transaction history",
+    numero: "Number",
+    dateEnvoi: "Sent date",
+    dateExpiration: "Expiration date",
+    destinataire: "Recipient",
+    montant: "Amount",
+    toa: "To",
+    status: "Status",
+  },
+  displayEmailMoneyTransferDetails:{
+    accepte: "Accepted",
+    autoAccepte: "Auto-Accepted",
+    attente: "Pending",
+    nonReussi: "Failed",
+    annule: "Cancelled",
+    expire: "Expired",
+    refuse: "Declined",
+  },
+  common:{
+    monthsList:[
+      "jan",
+      "feb",
+      "mar",
+      "apr",
+      "may",
+      "jun",
+      "jul",
+      "aug",
+      "sep",
+      "oct",
+      "nov",
+      "dec",
+    ],
+  }
+};
+
+var stringsAll;
+
+var lang = document.documentElement.lang;
+
+if(lang.indexOf("en")>=0){
+    stringsAll = stringsAllEN;
+}else if(lang.indexOf("fr")>=0){
+    stringsAll = stringsAllFR;
+}
+
+var spinner = "<i class='fa fa-spinner fa-pulse'></i>"
